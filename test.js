@@ -37,3 +37,5 @@ test('Create static spin text. Do multiple spin, but has same results', t => {
 
   t.is(spinText, spinText2);
 });
+
+// test travis here
