@@ -1,0 +1,34 @@
+{
+  "name": "superspin",
+  "version": "0.1.0",
+  "description": "Spin anything in a sentence. Create spun words and a magic trick.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raitucarp/superspin.git"
+  },
+  "keywords": [
+    "spinner",
+    "spun",
+    "spin",
+    "words",
+    "sentences"
+  ],
+  "author": "Ribhararnus Pracutiar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raitucarp/superspin/issues"
+  },
+  "homepage": "https://github.com/raitucarp/superspin#readme",
+  "devDependencies": {
+    "ava": "^0.18.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "random-seed": "^0.3.0",
+    "shortid": "^2.2.8"
+  }
+}
