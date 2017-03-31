@@ -1,6 +1,6 @@
 {
   "name": "superspin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spin anything in a sentence. Create spun words and a magic trick.",
   "main": "index.js",
   "scripts": {
