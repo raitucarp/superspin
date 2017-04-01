@@ -54,7 +54,7 @@ new Superspin(openToken, closeToken, orToken)
 default params:
 - openToken = {
 - closeToken = {
-- orToken = {
+- orToken = |
 
 ### spin(String text[, Boolean withSeed])
 
