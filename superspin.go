@@ -46,8 +46,9 @@ func (sp *SuperSpin) parse() {
 	ids = append(ids, []string{})
 	ids[deepLevel] = append(ids[deepLevel], id)
 
+	runes := []rune(sp.text)
 	for i := 0; i < len(sp.text); i++ {
-		char := rune(sp.text[i])
+		char := runes[i]
 
 		if char == sp.openToken {
 			id := generateID()
